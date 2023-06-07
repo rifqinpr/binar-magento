@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click Create an Account in Homepage</description>
+   <name>Click Create an Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e8db87-a146-435c-973a-9a28935c9a1f</testCaseGuid>
+</TestCaseEntity>

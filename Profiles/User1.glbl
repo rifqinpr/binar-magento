@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>User1</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arkena@mytestmail.net'</initValue>
+      <name>userMail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'a1b2.C3d4e5'</initValue>
+      <name>userPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://magento.softwaretestingboard.com'</initValue>
+      <name>webUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

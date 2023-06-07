@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login Invalid</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>700028ef-331b-4317-bb81-be7fb4a5258a</testSuiteGuid>
+   <testCaseLink>
+      <guid>72e1da5a-cda7-4566-96ad-46100e6930bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Login Feature/LGN02 - User Login with Invalid Data</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5abced8b-4158-495a-b4b1-696f4dc0ba4a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginInvalid</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5abced8b-4158-495a-b4b1-696f4dc0ba4a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userMail</value>
+         <variableId>c0459f86-b0cf-44d7-ab96-4f7ed940d324</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5abced8b-4158-495a-b4b1-696f4dc0ba4a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userPass</value>
+         <variableId>89a31715-9570-4c2c-be05-462bd3eb3c2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5abced8b-4158-495a-b4b1-696f4dc0ba4a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedMailErrMsg</value>
+         <variableId>e8046f46-c720-4609-9af6-a8fada90159a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5abced8b-4158-495a-b4b1-696f4dc0ba4a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedPassErrMsg</value>
+         <variableId>c15ea41a-9ef0-4ac3-86c9-2347d19c864b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
