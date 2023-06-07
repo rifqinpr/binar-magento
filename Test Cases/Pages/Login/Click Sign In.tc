@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>From Homepage, Click Sign In Text Link</description>
+   <name>Click Sign In</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a13c5b88-a2a5-46e3-8a87-e95a9cd93339</testCaseGuid>
+</TestCaseEntity>

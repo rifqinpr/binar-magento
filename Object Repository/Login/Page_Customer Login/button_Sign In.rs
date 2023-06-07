@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//button[@id='send2']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'send' and @id = 'send2' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>15a4e375-7629-45fb-ab4f-5d755affce2e</webElementGuid>
+      <webElementGuid>5f293299-a111-409d-9c23-743e4ef5eddb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a78e29a9-5119-4709-8ee8-38fff8754e93</webElementGuid>
+      <webElementGuid>568baa20-2ad2-438e-a071-a78afc8fb859</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>action login primary</value>
-      <webElementGuid>a1ea7b62-97d4-457f-ac6a-abb9bc044390</webElementGuid>
+      <webElementGuid>09fa1cf9-2828-4276-86ea-cf6064aa4127</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>send</value>
-      <webElementGuid>3eacead8-eb0b-4f22-ac79-5f392a8be6f7</webElementGuid>
+      <webElementGuid>aea6f308-8e5e-4c32-9ebf-3d738c1691cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>send2</value>
-      <webElementGuid>c55ea325-4414-4a9a-81c7-c6f999974f37</webElementGuid>
+      <webElementGuid>476952ee-bab9-44bf-9510-f33686b4ffa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>f16ce552-e4b3-4969-8a12-1b9950ea764c</webElementGuid>
+      <webElementGuid>fdd12d0c-d814-440e-b35d-0b8d56d0694a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;login-container&quot;]/div[@class=&quot;block block-customer-login&quot;]/div[@class=&quot;block-content&quot;]/form[@id=&quot;login-form&quot;]/fieldset[@class=&quot;fieldset login&quot;]/div[@class=&quot;actions-toolbar&quot;]/div[@class=&quot;primary&quot;]/button[@id=&quot;send2&quot;]</value>
-      <webElementGuid>7b0f1fe1-ea9f-4b1d-b18c-a75c4d853957</webElementGuid>
+      <webElementGuid>65fad002-d516-40c2-af09-7c901f0dde90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='send2']</value>
-      <webElementGuid>8c65f30c-3284-4669-b285-4057ea27f0f8</webElementGuid>
+      <webElementGuid>e3fafbb9-9fd1-47de-84e1-371fac4447c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='login-form']/fieldset/div[4]/div/button</value>
-      <webElementGuid>8f4c4c1b-d3e4-4579-b06b-053ee74b23cc</webElementGuid>
+      <webElementGuid>0d9c3e56-ceec-4af9-b421-805feddc46a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>72c57071-b84d-497b-8abf-9c3d0d1530ae</webElementGuid>
+      <webElementGuid>d6ba1a10-4608-46d3-9b18-b1b0535d9006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>dbc879c4-2d15-407c-a857-5b03c958f919</webElementGuid>
+      <webElementGuid>2b3026df-fbc1-484c-86b4-b5a4e0ac105e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Your Password?'])[1]/preceding::button[1]</value>
-      <webElementGuid>a7df8872-efeb-4ca6-a929-e6ad3ce53ba3</webElementGuid>
+      <webElementGuid>5f075cae-a601-4389-8f51-3f9f099343a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/button</value>
-      <webElementGuid>d0ecf4fd-dcbc-4799-92bd-73edac0f9405</webElementGuid>
+      <webElementGuid>b8d52d4c-8a74-4fec-9e20-a963d5208e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @name = 'send' and @id = 'send2' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>5e432eac-bfb0-4016-91f2-d65a6676937d</webElementGuid>
+      <webElementGuid>486636e3-1390-4756-accf-5ba98e1c630a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

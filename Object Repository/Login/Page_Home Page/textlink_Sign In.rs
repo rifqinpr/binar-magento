@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign In</name>
+   <name>textlink_Sign In</name>
    <tag></tag>
    <elementGuidId>a7c23196-fad3-4ba6-93bf-c6474d93a91f</elementGuidId>
    <selectorCollection>
@@ -13,8 +13,14 @@
          <key>XPATH</key>
          <value>//a[contains(text(),'Sign In')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/' and (text() = '
+Sign In ' or . = '
+Sign In ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>26d457c9-14e0-4f28-8093-2efcdc88b9f6</webElementGuid>
+      <webElementGuid>cea4bd58-cf85-4de0-9643-3e641e3a0e2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/</value>
-      <webElementGuid>fbfc8330-313c-4d14-a1a2-24bcbe52fe74</webElementGuid>
+      <webElementGuid>1a224f89-cab5-4f2b-a341-e5abafa9f402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +45,7 @@
       <type>Main</type>
       <value>
 Sign In </value>
-      <webElementGuid>66c637f2-5e77-4cff-97c7-ec411cff5ebd</webElementGuid>
+      <webElementGuid>e8c46f5b-b0dc-4794-abdb-9bbb724aad41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@ Sign In </value>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;cms-home cms-index-index page-layout-1column&quot;]/div[@class=&quot;page-wrapper&quot;]/header[@class=&quot;page-header&quot;]/div[@class=&quot;panel wrapper&quot;]/div[@class=&quot;panel header&quot;]/ul[@class=&quot;header links&quot;]/li[@class=&quot;authorization-link&quot;]/a[1]</value>
-      <webElementGuid>08e1df06-b6e0-4ce4-8356-660c6700fd8e</webElementGuid>
+      <webElementGuid>944719db-9dac-45b5-b815-f7d2a8717fd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +61,7 @@ Sign In </value>
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign In')]</value>
-      <webElementGuid>47d95121-345a-42a4-8f6b-56fb2eb330c0</webElementGuid>
+      <webElementGuid>a37d22db-4294-44d5-a80e-7778cb4ba2f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +69,7 @@ Sign In </value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to Content'])[1]/following::a[1]</value>
-      <webElementGuid>13976fef-307b-45f5-b964-d86b87eaa742</webElementGuid>
+      <webElementGuid>6f7055db-8815-4a74-8411-7758cf4ed021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +77,7 @@ Sign In </value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create an Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>91cb1c16-dd5d-41cd-b834-47070e1f12f2</webElementGuid>
+      <webElementGuid>8513f533-e3f3-4bbd-a4f1-a7ee1835b469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@ Sign In </value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toggle Nav'])[1]/preceding::a[2]</value>
-      <webElementGuid>b93bbb5f-6fbf-443a-a56f-57c5a2ef51a2</webElementGuid>
+      <webElementGuid>a399c1d6-4341-4926-b59b-0ead4227e2a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +93,7 @@ Sign In </value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign In']/parent::*</value>
-      <webElementGuid>d64d52a4-7f8a-424d-82e4-58f7a57ab936</webElementGuid>
+      <webElementGuid>ccd68efb-c242-49d4-8e0f-8dea6a8976b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +101,7 @@ Sign In </value>
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/')]</value>
-      <webElementGuid>72bfd2b1-4c70-4720-ac98-566dc1fe1f22</webElementGuid>
+      <webElementGuid>f22b28bb-88a8-4a5d-a909-aac686721c12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +109,7 @@ Sign In </value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>5ec52010-a048-4ce9-ac35-19f4af61182d</webElementGuid>
+      <webElementGuid>791be66b-d9c0-407b-b66f-545b34fe7ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +119,6 @@ Sign In </value>
       <value>//a[@href = 'https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/' and (text() = '
 Sign In ' or . = '
 Sign In ')]</value>
-      <webElementGuid>dcf81cd4-55dc-44bb-8246-ea1de4f0f17d</webElementGuid>
+      <webElementGuid>a4476014-3690-4138-8215-52ff9219f452</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

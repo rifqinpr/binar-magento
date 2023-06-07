@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jokodarmawanto@mytestmail.net'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rqjd+KBELlC3S1G7JQU/+Q=='</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://magento.softwaretestingboard.com/'</initValue>
+      <name>webUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

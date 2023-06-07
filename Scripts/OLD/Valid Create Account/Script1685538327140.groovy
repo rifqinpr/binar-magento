@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 WebUI.click(findTestObject('Object Repository/Create Account/Page_Home Page/a_Create an Account'))
 
 WebUI.setText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_First Name_firstname'), 
-    'Joko')
+    'Mayora')
 
 WebUI.setText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_Last Name_lastname'), 
     'Darmawanto')

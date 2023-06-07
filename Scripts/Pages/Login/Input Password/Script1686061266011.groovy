@@ -17,19 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
-
-WebUI.click(findTestObject('Object Repository/Login/Page_Home Page/a_Sign In'))
-
-WebUI.setText(findTestObject('Object Repository/Login/Page_Customer Login/input_Email_loginusername'), 'jokodarmawanto@mytestmail.net')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Customer Login/input_Password_loginpassword'), 'Rqjd+KBELlC3S1G7JQU/+Q==')
-
-WebUI.click(findTestObject('Object Repository/Login/Page_Customer Login/button_Sign In'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Home Page/span_Welcome, Rifqi Nugroho'), 0)
-
-WebUI.verifyElementText(findTestObject('Page_Home Page/span_Welcome, Rifqi Nugroho'), 'Welcome, Joko Darmawanto!')
+WebUI.setText(findTestObject('Login/Page_Customer Login/input_Password_loginpassword'), password)
 
