@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Home Page/div_M'))
+WebUI.click(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/div_M'))
 
-WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Home Page/div_XL_option-label-color-93-item-57'))
+WebUI.click(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/div_XL_option-label-color-93-item-57'))
 
-WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Home Page/button_Add to Cart'))
+WebUI.click(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/button_Add to Cart'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/Page_Home Page/div_You added Radiant Tee to your shopping cart'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/div_You added Radiant Tee to your shopping cart'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Add to Cart/Page_Home Page/div_You added Radiant Tee to your shopping cart'), 
+WebUI.verifyElementText(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/div_You added Radiant Tee to your shopping cart'), 
     'You added Radiant Tee to your shopping cart.')
 
-WebUI.click(findTestObject('Object Repository/Add to Cart/Page_Home Page/a_My Cart11items'))
+WebUI.click(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/a_My Cart11items'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/Page_Home Page/a_Radiant Tee'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/a_Radiant Tee'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Add to Cart/Page_Home Page/a_Radiant Tee'), 'Radiant Tee')
+WebUI.verifyElementText(findTestObject('Object Repository/OLD/Add to Cart/Page_Home Page/a_Radiant Tee'), 'Radiant Tee')
 

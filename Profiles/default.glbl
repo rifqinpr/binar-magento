@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'jokodarmawanto@mytestmail.net'</initValue>
-      <name>username</name>
+      <initValue>'jamal@mytestmail.net'</initValue>
+      <name>userMail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Rqjd+KBELlC3S1G7JQU/+Q=='</initValue>
-      <name>password</name>
+      <initValue>'a1b2.C3d4e5'</initValue>
+      <name>userPass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://magento.softwaretestingboard.com/'</initValue>
+      <initValue>'https://magento.softwaretestingboard.com'</initValue>
       <name>webUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

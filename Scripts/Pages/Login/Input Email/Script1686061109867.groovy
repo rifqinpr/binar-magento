@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Login/Page_Customer Login/input_textfield_loginusername'), username)
+WebUI.setText(findTestObject('Page_Customer Login/input_textfield_loginusername'), userMail)
 

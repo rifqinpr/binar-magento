@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Login/Page_Home Page/textlink_Sign In'))
+WebUI.click(findTestObject('Page_Home Page/textlink_Sign In'))
 

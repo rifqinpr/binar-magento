@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Home Page/textlink_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_Home Page/textlink_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Customer Login/input_textfield_loginusername'), 'jokodarmawanto@mytestmail.net')
+WebUI.setText(findTestObject('Object Repository/Page_Customer Login/input_textfield_loginusername'), 'jokodarmawanto@mytestmail.net')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Customer Login/input_Password_loginpassword'), 'Rqjd+KBELlC3S1G7JQU/+Q==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Customer Login/input_Password_loginpassword'), 'Rqjd+KBELlC3S1G7JQU/+Q==')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Customer Login/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_Customer Login/button_Sign In'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Home Page/span_Welcome, Rifqi Nugroho'), 0)
 

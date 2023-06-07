@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Login/Page_Home Page/span_Welcome Msg'))
+WebUI.verifyElementVisible(findTestObject('Page_Home Page/span_Welcome Msg'))
 
-WebUI.verifyElementText(findTestObject('Login/Page_Home Page/span_Welcome Msg'), '')
+WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('Page_Home Page/span_Welcome Msg'), expectedText)
 

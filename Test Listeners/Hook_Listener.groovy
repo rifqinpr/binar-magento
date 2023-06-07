@@ -70,6 +70,6 @@ class Hook_Listener {
 	 */
 	@AfterTestSuite
 	def AfterTestSuite(TestSuiteContext testSuiteContext) {
-		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId() + ', ' + testSuiteContext.getStatus())
 	}
 }

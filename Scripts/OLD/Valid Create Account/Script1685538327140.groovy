@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('Object Repository/Create Account/Page_Home Page/a_Create an Account'))
+WebUI.click(findTestObject('Object Repository/Page_Home Page/textLink_Create Account'))
 
-WebUI.setText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_First Name_firstname'), 
+WebUI.setText(findTestObject('Object Repository/Page_Create New Customer Account/input_First Name_firstname'), 
     'Mayora')
 
-WebUI.setText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_Last Name_lastname'), 
+WebUI.setText(findTestObject('Object Repository/Page_Create New Customer Account/input_Last Name_lastname'), 
     'Darmawanto')
 
-WebUI.setText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_Email_email'), 'jokodarmawanto@mytestmail.net')
+WebUI.setText(findTestObject('Object Repository/Page_Create New Customer Account/input_Email_email'), 'jokodarmawanto@mytestmail.net')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Create New Customer Account/input_Password_password'), 
     'Rqjd+KBELlC3S1G7JQU/+Q==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/input_Confirm Password_password_confirmation'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Create New Customer Account/input_Confirm Password_password_confirmation'), 
     'Rqjd+KBELlC3S1G7JQU/+Q==')
 
-WebUI.click(findTestObject('Object Repository/Create Account/Page_Create New Customer Account/button_Create an Account'))
+WebUI.click(findTestObject('Object Repository/Page_Create New Customer Account/button_Create an Account'))
 
 WebUI.verifyElementPresent(findTestObject('Page_My Account/div_Thank you for registering with Main Web_e69dd7'), 0)
 
