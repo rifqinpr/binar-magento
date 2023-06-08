@@ -30,7 +30,7 @@ if (userPass == '') {
     WebUI.verifyElementText(findTestObject('Page_Customer Login/div_Pass Error Msg'), expectedPassErrMsg)
 }
 
-if (usermail != 'jamal@mytestmail.net' || userPass != 'a1b2.C3d4e5') {
+if (userMail != 'jamal@mytestmail.net' || userPass != 'a1b2.C3d4e5') {
     WebUI.verifyElementVisible(findTestObject('Page_Customer Login/div_Error Incorrect Message'))
 }
 

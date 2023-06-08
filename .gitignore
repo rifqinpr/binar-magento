@@ -22,7 +22,7 @@ build
 
 .log
 .settings
-/settings
+/settings/
 .cache
 console.properties
 /Reports/
